@@ -57,7 +57,7 @@ nav {
 	margin-top: 3rem;
 	width: 960px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	background-color: white;
 }
 
@@ -125,7 +125,7 @@ nav {
 
 .info {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	margin-top: 3rem;
 	width: 960px;
 	height: 3rem;
