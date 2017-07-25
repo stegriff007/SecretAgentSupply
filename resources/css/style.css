@@ -171,7 +171,7 @@ h5 {
 {
 	.container {
   	  display: flex;
- 	  width: 640px;
+  	  width: 100%;
   	  margin: 0 auto;
 
 	}
@@ -181,7 +181,7 @@ h5 {
 	}
 
 	.description {
-		width: 45%;
+		width: 47%;
 
 	}
 
@@ -193,5 +193,87 @@ h5 {
 	nav #special {
 	display: flex;
 	}
+
+}
+
+
+@media only screen and (max-width: 470px)
+{
+	.container {
+  		display: flex;
+  	 	width: 100%;
+  		margin: 0 auto;
+
+	}
+
+	#three {
+		display: none;
+	}
+
+	#two {
+		display: none;
+	}
+
+	.description {
+		width: 90%;
+
+	}
+
+	nav span {
+		display: none;
+
+	}
+
+	nav #special {
+		display: flex;
+	}
+
+	.product_grid {
+		margin-top: 3rem;
+		justify-content: center;
+	}
+
+	.box {
+		margin-top: 10rem;
+		height: 2rem;
+		width: 100%;
+		padding-bottom: 3rem;
+	}
+
+
+	.box h1 {
+		font-size: 1rem;
+		font-weight: bold;
+		padding-left: 2rem;
+		padding-top: 1rem;
+	}
+
+	.box h3 {
+		font-weight: bold;
+		font-size: .77rem;
+		padding-left: 2rem;
+		padding-top: 1rem;
+	}
+
+	.info div {
+		min-width: 100%;
+
+	}
+
+	.info {
+		display: block;
+		margin: 0 auto;
+		margin-top: 3rem;
+		width: 90%;
+		height: 3rem;
+		margin-bottom: 4rem;
+
+	}
+
+	h5 {
+		margin: 0 auto;
+	}
+
+
 
 }
